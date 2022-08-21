@@ -1,8 +1,8 @@
 export default class MovingGoblin {
   constructor() {
-    this.goblin = document.querySelector('.hole_has-goblin')
-    
+    this.goblin = document.querySelector('.hole_has-goblin');
   }
+
   moving() {
     setInterval(() => {
       const prevGoblinIndex = parseInt(this.goblin.id.match(/\d+/), 10);
@@ -14,7 +14,7 @@ export default class MovingGoblin {
         randomIndex += 1;
       }
       const nextGoblin = document.getElementById(`hole${randomIndex}`);
-    
+
       document.querySelector('.hole_has-goblin').classList.remove('hole_has-goblin');
       nextGoblin.classList.add('hole_has-goblin');
     }, 1000);
