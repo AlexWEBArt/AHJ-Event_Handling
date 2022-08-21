@@ -1,0 +1,28 @@
+body {
+    color: #999;
+}
+
+.hole-field {
+    width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .hole {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background: gray;
+    border-radius: 50%;
+  }
+  
+  .hole_has-goblin {
+    background-image: url('../img/goblin.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: red;
+    cursor: url('../img/hammer.svg'), auto;
+  }
