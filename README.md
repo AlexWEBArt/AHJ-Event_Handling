@@ -1,3 +1,3 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/i0o1hpdjk6d6d6ax?svg=true)](https://ci.appveyor.com/project/AlexWEBArt/ahj-dom-game)
+[![Build status](https://ci.appveyor.com/api/projects/status/e28hdsp6575ac6lf?svg=true)](https://ci.appveyor.com/project/AlexWEBArt/ahj-event-handling)
 
-https://alexwebart.github.io/AHJ-Dom_game/
+https://alexwebart.github.io/AHJ-Event_Handling/
